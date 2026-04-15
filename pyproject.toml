@@ -1,0 +1,19 @@
+[project]
+name = "email-spam-detection"
+version = "0.1.0"
+description = "Email Spam Detection using NLP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "numpy",
+    "contractions",
+    "scikit-learn",
+    "torch",
+    "transformers",
+    "fasttext",
+    "gensim",
+    "tensorflow",
+    "peft",
+    "tqdm"
+]
